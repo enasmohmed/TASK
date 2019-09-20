@@ -1,0 +1,283 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+}
+
+/********** Start RibbonOne ***********/
+.ribbon-one{
+  border-bottom: 2px solid #edecf5;
+}
+
+.ribbon-one .part-1{
+  background-color: #5b9bd5;
+  height: 55px;
+}
+
+.ribbon-one .part-2{
+  background-color: #dad8ff;
+  height: 55px;
+  width: 136px;
+}
+
+.ribbon-one .part-2 i{
+  margin-top: 6px;
+  border: 1px solid #ffffff69;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: -2px;
+  background-color: #dddddd91;
+}
+.ribbon-one .part-2 .info{
+  margin-left: 46px;
+  margin-top: -41px;
+}
+
+
+.ribbon-one .part-2 .info p{
+  margin-top: -14px;
+}
+
+.ribbon-one .part-2 .com{
+  background-color: #f3f3f3c7;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  width: 2px;
+  margin-left: 116px;
+}
+/********** End RibbonOne ***********/
+
+/********* Start RibbonTwo ***********/
+.ribbon-tow{
+  background-color: #dad8ff;
+}
+
+.ribbon-tow .side-one{
+  margin-top: 3px;
+  height: 37px;
+}
+
+.ribbon-tow .side-one h4{
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.ribbon-tow .side-one .form-control{
+  width: 110px;
+  margin-left: 99px;
+  margin-top: -31px;
+  height: 28px;
+  background-color: #dad8ff;
+  border: 1px solid #f9f9f9;
+}
+
+.ribbon-tow .side-one a{
+  margin-left: 215px;
+  margin-top: -23px;
+  position: absolute;
+}
+
+.ribbon-tow .side-there{
+
+}
+
+.ribbon-tow .side-there h3{
+  font-size: 12px;
+  margin-left: -22px;
+  margin-top: 12px;
+  position: absolute;
+}
+
+.ribbon-tow .side-there .form-control-1{
+  width: 121px;
+  margin-left: 18px;
+  margin-top: 9px;
+  position: absolute;
+  height: 20px;
+}
+
+.ribbon-tow .side-there span{
+  margin-left: 141px;
+  margin-top: 9px;
+  position: absolute;
+}
+
+.ribbon-tow .side-there input{
+  width: 116px;
+  margin-left: 159px;
+  height: 18px;
+  margin-top: 9px;
+  position: absolute;
+}
+
+.ribbon-tow .side-there button{
+  margin-left: 279px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #dad8ff;
+  position: absolute;
+  margin-top: 4px;
+  height: 28px;
+}
+/********* End RibbonTwo ************/
+
+/********* Start RibbonThere ***********/
+.ribbon-there{
+  background-color: #5d5994e0;
+}
+
+.ribbon-there .side-1{
+  height: 57px;
+}
+
+.ribbon-there .side-1 i{
+  margin-top: 4px;
+  margin-left: 21px;
+  border: 2px solid #dddddd40;
+  padding: 11px;
+  border-radius: 50%;
+}
+
+.ribbon-there .side-1 h2{
+  margin-left: 84px;
+  font-size: 22px;
+  margin-top: -33px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ribbon-there .side-2 {
+
+}
+.ribbon-there .side-2 p{
+  margin-left: 311px;
+  margin-top: 9px;
+  line-height: 10px;
+  color: #fff;
+}
+.ribbon-there .side-2 .span-1{
+  margin-left: 349px;
+  margin-top: -25px;
+  position: absolute;
+  color: #ffffffd6;
+}
+
+.ribbon-there .side-2 p .span-2{
+  color: #ffffffd6;
+}
+/********* End RibbonThere ***********/
+
+/********* Start RibbonFour ***********/
+.ribbon-four{
+  background-color: #f80;
+  padding: 3px;
+}
+
+.ribbon-four a{
+  margin-left: 14px;
+  color: #000;
+}
+/********* End RibbonFour ***********/
+
+/********* Start RibbonFive **********/
+.ribbon-five{
+  background-color: #dad8ff;
+  height: 36px;
+}
+
+.ribbon-five .info-1 h2{
+  font-size: 22px;
+  margin-left: 14px;
+  margin-top: 5px;
+  color: blue;
+}
+
+.ribbon-five .info-2 .p-1{
+  margin-left: 132px;
+  margin-top: 9px;
+  position: absolute;
+}
+.ribbon-five .info-2 input {
+  width: 50px;
+  height: 21px;
+  margin-left: 249px;
+  margin-top: 9px;
+  position: absolute;
+}
+
+.ribbon-five .info-3 .p-2{
+  margin-top: 8px;
+  margin-left: 129px;
+  position: absolute;
+}
+
+.ribbon-five .info-3 .form-control-3{
+  margin-top: 8px;
+  position: absolute;
+  margin-left: 171px;
+  border-radius: 3px;
+  border: 2px solid #0d37d2;
+}
+
+.ribbon-five .info-3 .tag-1{
+  margin-left: 277px;
+  margin-top: 8px;
+  position: absolute;
+}
+.ribbon-five .info-3  .tag-2{
+  margin-left: 309px;
+  width: 97px;
+  height: 19px;
+  margin-top: 8px;
+  margin-top: 8px;
+  position: absolute;
+}
+/********** End RibbonFive **********/
+
+/********** Start Teble  ************/
+.start-teble {
+margin-top: 40px;
+overflow-x: auto;
+}
+
+.start-teble p {
+  margin-left: 37px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: -31px;
+}
+
+.start-teble .tit {
+  text-align: right;
+  margin-right: 39px;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+table .two{
+  background-color: #ddd;
+}
+
+table .there{
+  background-color: #ddd;
+}
+th{
+  background-color: #57a5ec57;
+  color: #371dc5;
+}
+th,td{
+  border: 2px solid #f9f9f9;
+  padding: 5px !important;
+  text-align: center !important;
+}
+/********** End Teble  ************/

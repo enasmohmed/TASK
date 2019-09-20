@@ -1,0 +1,287 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'%}">
+</head>
+<body>
+    {% block body  %}
+
+   <!--========= Start RibbonOne ============-->
+   <div class="ribbon-one">
+        <div class="row">
+            <div class="col-md-1 part-1">
+
+            </div>
+            <div class="col-md-2 part-2">
+                <i class="fa fa-users fa-lg"></i>
+                <div class="info">
+                    <h5>Client</h5>
+                    <p>Manager</p>
+                </div>
+                <span class="com"></span>
+            </div>
+
+            <div class="col-md-2 part-2">
+                <i class="fa fa-question fa-lg"></i>
+                <div class="info">
+                    <h5>Support</h5>
+                    <p>Manager</p>
+                </div>
+                <span class="com"></span>
+            </div>
+            <div class="col-md-2 part-2">
+                <i class="fa fa-desktop fa-lg"></i>
+                <div class="info">
+                    <h5>Device</h5>
+                    <p>Manager</p>
+                </div>
+                <span class="com"></span>
+            </div>
+            <div class="col-md-2 part-2">
+                <i class="fa fa-first-order fa-lg"></i>
+                <div class="info">
+                    <h5>Order</h5>
+                    <p>Manager</p>
+                </div>
+                <span class="com"></span>
+            </div>
+            <div class="col-md-2 part-2">
+                <i class="fa fa-user fa-lg"></i>
+                <div class="info">
+                    <h5>Sales</h5>
+                    <p>Manager</p>
+                </div>
+                <span class="com"></span>
+            </div>
+            <div class="col-md-2 part-2">
+                <i class="fa fa-database fa-lg"></i>
+                <div class="info">
+                    <h5>Reports</h5>
+                    <p>& Stats</p>
+                </div>
+                <span class="com"></span>
+            </div>
+            <div class="col-md-2 part-2">
+                <i class="fa fa-wrench fa-lg"></i>
+                <div class="info">
+                    <h5>Setup &</h5>
+                    <p>Admin</p>
+                </div>
+                <span class="com"></span>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+  <!--========= End RibbonOne ============-->
+
+  <!--========= Start RibbonTwo ============-->
+    <div class="ribbon-tow">
+        <div class="row">
+            <div class="col-md-6 side-one">
+                <h4>Your Are Here:</h4>
+                <select class="form-control">
+                    <option>Hivelocity</option>
+                    <option>Default</option>
+                    <option>Select</option>
+                    <option>Form</option>
+                </select>
+                <a href="#">Client Manager</a>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-4 side-there">
+                <h3>Search</h3>
+                <select class="form-control-1">
+                    <option>Client Manager</option>
+                    <option>Default</option>
+                    <option>Select</option>
+                    <option>Form</option>
+                </select>
+                <span>for</span>
+                <input type="text" name="text">
+                <button>Ok</button>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+  <!--========= End RibbonTwo ============-->
+
+
+  <!--========= Start RibbonThere ============-->
+
+  <div class="ribbon-there">
+    <div class="row">
+        <div class="col-md-5 side-1">
+            <i class="fa fa-users fa-lg fa-2x"></i>
+            <h2>Client Manager</h2>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-5 side-2">
+            <p>3644</p><span class="span-1">total</span>
+            <p>33519 <span class="span-2">total</span></p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <!--========= End RibbonThere ============-->
+
+  <!--========= Start RibbonFour ============-->
+
+  <div class="ribbon-four">
+      <div class="row">
+          <div class="col-md-12">
+            <a href="#">Add a New Client</a>
+          </div>
+      </div>
+      <div class="clearfix"></div>
+  </div>
+
+  <!--========= End RibbonFour ============-->
+
+
+  <!--========= Start RibbonFive ============-->
+
+  <div class="ribbon-five">
+      <div class="row">
+          <div class="col-md-3 info-1">
+            <h2>Active Clients</h2>
+          </div>
+          <div class="col-md-4 info-2">
+            <p class="p-1">Junp to client ID # </p>
+            <input type="text" name="text">
+          </div>
+          <div class="col-md-5 info-3">
+            <p class="p-2">View : </p>
+            <select class="form-control-3">
+                <option>Active Client</option>
+                <option>Default</option>
+                <option>Select</option>
+                <option>Form</option>
+            </select>
+            <p class="tag-1">Tag :</p>
+            <input class="tag-2" type="text" name="text">
+          </div>
+          <div class="clearfix"></div>
+      </div>
+  </div>
+  <!--========= End RibbonFive ============-->
+
+  <!--========= Start Teble ============-->
+
+  <div class="start-teble">
+      <p>Clients 1-100 of 3644 Shown</p>
+      <h6 class="tit"><< < 1 2 3 5 10</h6>
+     <div class="container">
+            <table>
+                <tbody>
+
+                    <tr>
+                        <th>ID</th>
+                        <th>Last Name</th>
+                        <th>First Name</th>
+                        <th>Company</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Balance</th>
+                        <th>Authorization</th>
+                        <th>Reseller</th>
+                    </tr>
+                    <tr>
+                        <td>1056</td>
+                        <td>Mcmahon</td>
+                        <td>Jinh</td>
+                        <td>major geek</td>
+                        <td>....</td>
+                        <td>....</td>
+                        <td>$ 0.00</td>
+                        <td>Unchecked</td>
+                        <td>Unchecked</td>
+                    </tr>
+                    <tr class="two">
+                        <td>1059</td>
+                        <td>Tsang</td>
+                        <td>Fred</td>
+                        <td>FTsang.com Ltd</td>
+                        <td>....</td>
+                        <td>....</td>
+                        <td>$ 0.00</td>
+                        <td>Unchecked</td>
+                        <td>Unchecked</td>
+                    </tr>
+                    <tr>
+                        <td>1060</td>
+                        <td>Daramola</td>
+                        <td>Fred</td>
+                        <td>Dnet Systems</td>
+                        <td>....</td>
+                        <td>....</td>
+                        <td>$ 0.00</td>
+                        <td>Unchecked</td>
+                        <td>Unchecked</td>
+                    </tr>
+                    <tr class="there">
+                        <td>1061</td>
+                        <td>Rashbam</td>
+                        <td>Asaf</td>
+                        <td>Keshet internet marketing $olutions</td>
+                        <td>....</td>
+                        <td>....</td>
+                        <td>$ 0.00</td>
+                        <td>Unchecked</td>
+                        <td>Unchecked</td>
+                    </tr>
+                    <tr>
+                        <td>1060</td>
+                        <td>Daramola</td>
+                        <td>Fred</td>
+                        <td>Dnet Systems</td>
+                        <td>....</td>
+                        <td>....</td>
+                        <td>$ 0.00</td>
+                        <td>Unchecked</td>
+                        <td>Unchecked</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+         <div id="show">
+            <button type="button" onclick="loadDoc()">Show Code</button>
+         </div>
+     </div>
+  </div>
+  <!--========= End Teble ============-->
+
+  <script>
+    function loadDoc() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("show").innerHTML =
+          this.responseText;
+        }
+      };
+      xhttp.open("GET", "http://127.0.0.1:8000/api/v1/Run/", true);
+      xhttp.send();
+    }
+    </script>
+
+
+    {% endblock body %}
+
+
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+    <script src="{% static 'js/jquery-1.12.4.min.js'%}"></script>
+    <script src="{% static 'js/main.js'%}"></script>
+</body>
+</html>
